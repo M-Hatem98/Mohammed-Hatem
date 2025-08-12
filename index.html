@@ -2,70 +2,97 @@
 <html lang="en">
    
 <head>
-      <title>Mohammed Hatem Personal Portfolio</title>
-      <!-- Basic Meta Tags -->
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="author" content="Mohammed Hatem">
-<meta name="description" content="Explore the portfolio and projects of Mohammed Hatem, showcasing skills in web development and design.">
-<meta name="keywords" content="Mohammed Hatem, web developer, portfolio, programming, projects, coding, frontend, backend">
+  <title>Mohammed Hatem Personal Portfolio</title>
 
-<!-- Open Graph Meta Tags (for social media sharing) -->
-<meta property="og:title" content="Mohammed Hatem | Portfolio">
-<meta property="og:description" content="Discover the works and projects of Mohammed Hatem, a passionate web developer.">
-<meta property="og:image" content="https://m-hatem98.github.io/Mohammed-Hatem/assets/about.jpg">
-<meta property="og:url" content="https://m-hatem98.github.io/Mohammed-Hatem/">
-<meta property="og:type" content="website">
+  <!-- Basic Meta Tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Mohammed Hatem">
+  <meta name="description" content="Explore the portfolio and projects of Mohammed Hatem, showcasing skills in web development and design.">
+  <meta name="keywords" content="Mohammed Hatem, web developer, portfolio, programming, projects, coding, frontend, backend">
 
-<!-- Twitter Card Meta Tags -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Mohammed Hatem | Portfolio">
-<meta name="twitter:description" content="Explore the portfolio and web projects of Mohammed Hatem.">
-<meta name="twitter:image" content="https://m-hatem98.github.io/Mohammed-Hatem/assets/about.jpg">
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Mohammed Hatem | Portfolio">
+  <meta property="og:description" content="Discover the works and projects of Mohammed Hatem, a passionate web developer.">
+  <meta property="og:image" content="https://m-hatem98.github.io/Mohammed-Hatem/assets/about.jpg">
+  <meta property="og:url" content="https://m-hatem98.github.io/Mohammed-Hatem/">
+  <meta property="og:type" content="website">
 
-<!-- Favicon -->
-<link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Mohammed Hatem | Portfolio">
+  <meta name="twitter:description" content="Explore the portfolio and web projects of Mohammed Hatem.">
+  <meta name="twitter:image" content="https://m-hatem98.github.io/Mohammed-Hatem/assets/about.jpg">
 
+  <!-- Favicon -->
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
 
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@100;200;300;400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
 
+  <!-- Inline Critical CSS -->
+  <style>
+    /* Minimal above-the-fold styles for faster paint */
+    body {
+      margin: 0;
+      font-family: 'Livvic', sans-serif;
+      background-color: #fff;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+    }
+  </style>
 
-      <!-- Template Google Fonts -->
-      <link rel="preconnect" href="https://fonts.googleapis.com/">
-      <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@100;200;300;400;500;600;700&amp;family=Oswald:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
-      <!-- Template CSS Files -->
-      <link rel="stylesheet" href="css/devicon.min.css">
-      <link rel="stylesheet" href="css/all.min.css">
-      <link rel="stylesheet" href="css/bootstrap.min.css">
-      <link rel="stylesheet" href="css/swiper-bundle.min.css">
-      <link rel="stylesheet" href="css/animate.min.css">
-      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-      <link rel="stylesheet" href="css/style.css">
-      <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha384-TgXQe72YXIwPiHsG45iCZXF62U5T6U8k2z5Df5q5J3D+vDmSJoEupG2fF0pA4pW5" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
-      <!-- CSS Skin File -->
-      <link rel="stylesheet" href="css/skins/yellow.css">
-      <!-- Live Style Switcher - demo only -->
-      <link rel="alternate stylesheet" type="text/css" title="yellow" href="css/skins/yellow.css">
-      <link rel="alternate stylesheet" type="text/css" title="blue" href="css/skins/blue.css">
-      <link rel="alternate stylesheet" type="text/css" title="green" href="css/skins/green.css">
-      <link rel="alternate stylesheet" type="text/css" title="red" href="css/skins/red.css">
-      <link rel="alternate stylesheet" type="text/css" title="yellowgreen" href="css/skins/yellowgreen.css">
-      <link rel="alternate stylesheet" type="text/css" title="orange" href="css/skins/orange.css">
-      <link rel="alternate stylesheet" type="text/css" title="pink" href="css/skins/pink.css">
-      <link rel="alternate stylesheet" type="text/css" title="goldenrod" href="css/skins/goldenrod.css">
-      <link rel="alternate stylesheet" type="text/css" title="turquoise" href="css/skins/turquoise.css">
-      <link rel="stylesheet" type="text/css" href="css/styleswitcher.css">
+  <!-- Main CSS Files (loaded async to avoid render-blocking) -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="css/all.min.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="css/devicon.min.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="css/animate.min.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="css/style.css" media="print" onload="this.media='all'">
 
-      <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-WX91M2320X"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- CSS Skin -->
+  <link rel="stylesheet" href="css/skins/yellow.css" media="print" onload="this.media='all'">
+  <link rel="alternate stylesheet" type="text/css" title="yellow" href="css/skins/yellow.css">
+  <link rel="alternate stylesheet" type="text/css" title="blue" href="css/skins/blue.css">
+  <link rel="alternate stylesheet" type="text/css" title="green" href="css/skins/green.css">
+  <link rel="alternate stylesheet" type="text/css" title="red" href="css/skins/red.css">
+  <link rel="alternate stylesheet" type="text/css" title="yellowgreen" href="css/skins/yellowgreen.css">
+  <link rel="alternate stylesheet" type="text/css" title="orange" href="css/skins/orange.css">
+  <link rel="alternate stylesheet" type="text/css" title="pink" href="css/skins/pink.css">
+  <link rel="alternate stylesheet" type="text/css" title="goldenrod" href="css/skins/goldenrod.css">
+  <link rel="alternate stylesheet" type="text/css" title="turquoise" href="css/skins/turquoise.css">
+  <link rel="stylesheet" href="css/styleswitcher.css" media="print" onload="this.media='all'">
 
-  gtag('config', 'G-WX91M2320X');
-</script>
-   </head>
+  <!-- Fallback for no-JS -->
+  <noscript>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/devicon.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/skins/yellow.css">
+    <link rel="stylesheet" href="css/styleswitcher.css">
+  </noscript>
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WX91M2320X"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-WX91M2320X');
+  </script>
+</head>
+
    <body>
       <!-- Live Style Switcher Starts - demo only -->
       <div id="switcher" class="">
@@ -138,7 +165,7 @@
             <!-- Mobile Menu Starts -->
             <nav class="mobile-menu">
                <div id="menuToggle">
-                  <input type="checkbox" id="checkboxmenu">
+                  <input type="checkbox" id="checkboxmenu" aria-label="Toggle menu">
                   <span></span>
                   <span></span>
                   <span></span>
